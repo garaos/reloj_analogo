@@ -1,0 +1,59 @@
+.reloj {
+    margin: 0px auto;
+    width: 650px;
+    height: 650px;
+
+}
+
+circle {
+    fill: rgba(64, 105, 132, 0.557);
+}
+
+.central {
+    fill: red;
+}
+
+.central2 {
+    fill:rgb(255, 255, 255) ;
+}
+
+.circuloExt {
+    fill: rgb(0, 0, 113);
+}
+
+.horas, .minutos, .segundos {
+transform-origin: center;
+stroke-linecap: round;
+}
+
+.horas {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 3px;
+    transition: transform 1s ease-in-out;
+}
+.minutos {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 2px;
+    transition: transform 1s ease-in-out;
+}
+
+.segundos {
+stroke: red;
+}
+
+.linea {
+    stroke-width: 1px;
+    stroke: white;
+    stroke-linecap: round;
+    transform-origin: center;
+  }
+
+  text {
+    fill: rgb(255, 255, 255);
+  }
+
+  .numero {
+    font-size:medium;
+    fill: aliceblue;
+    
+  }
